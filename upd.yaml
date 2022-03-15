@@ -1,0 +1,14 @@
+---
+- name: upd servidores 
+  hosts: servers
+  remote_user: cgdibm02
+  become: true
+
+
+  tasks:
+  - name: updates via dnf ou yum
+    ansible.builtin.package:        
+      name: "*"
+      state: latest
+          
+                           

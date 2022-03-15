@@ -1,0 +1,8 @@
+[rhfamily]
+control
+ansible1
+ansible2
+tower
+
+[ubuntufamily]
+ubuntu
